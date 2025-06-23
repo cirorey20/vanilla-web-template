@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-base);
+    line-height: 1.6;
+}
+h1 {
+  font-size: var(--font-size-lg); /* Títulos principales */
+}
+
+h2 {
+  font-size: var(--font-size-md); /* Subtítulos */
+}
+
+small {
+  font-size: var(--font-size-sm); /* Texto pequeño */
+}
+ul,ol {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,13 @@
+:root {
+  /* Tamaño base para el cuerpo del texto (párrafos, listas, etc.) */
+  --font-size-base: 1rem; /* Equivalente a 16px si el navegador tiene 16px como base */
+
+  /* Para títulos o elementos que necesiten un poco más de prominencia (subtítulos, etiquetas) */
+  --font-size-md: 1.25rem; /* Un 25% más grande que el base */
+
+  /* Para títulos principales o destacados (H1, secciones importantes) */
+  --font-size-lg: 2rem; /* El doble de grande que el base */
+
+  /* Opcional: Para texto pequeño (leyendas, detalles, notas al pie) */
+  --font-size-sm: 0.875rem; /* Un 12.5% más pequeño que el base */
+}
